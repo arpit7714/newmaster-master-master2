@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:title="Search"
+        android:id = "@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item android:id="@+id/about"
+        android:title="About App"/>
+    <item android:id="@+id/age"
+        android:title="Age Prediction"/>
+    <item android:id="@+id/graph"
+        android:title="Overall usage graph"/>
+    <item android:id="@+id/notification"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notification"
+        app:showAsAction="ifRoom"/>
+
+
+
+</menu>
